@@ -4,6 +4,11 @@ html {
 
 body {
     font-size: 1.6rem;
+    color: $color_text_primary;
+}
+
+main {
+    background: $color_main_bg;
 }
 
 * {

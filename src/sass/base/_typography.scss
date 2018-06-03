@@ -2,6 +2,12 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.heading-primary {
+    text-transform: uppercase;
+    font-family: 'BloggerSans', sans-serif;
+    font-size: 3rem;
+}
+
 /* Webfont: BloggerSans-Bold */@font-face {
     font-family: 'BloggerSans';
     src: url('../fonts/Blogger Sans/BloggerSans-Bold.eot'); /* IE9 Compat Modes */

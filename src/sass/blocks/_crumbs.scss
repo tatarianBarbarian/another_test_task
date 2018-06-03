@@ -1,8 +1,30 @@
 .crumbs {
+    padding: 2rem 0;
+    background: white;
 
+    &__link {
+        text-decoration: none;
+        color: $color_text_primary;
+        font-family: 'BloggerSans', sans-serif;
+        position: relative;
 
-    &__list {
-        display: flex;
-        list-style: none;
+        &:not(:last-child) {
+            margin-right: 2rem;
+            color: $color_light_grey;
+
+            &::after {
+                content: '';
+                display: inline-block;
+                width: 0;
+                height: 0;
+                border-top: 4px solid transparent;
+                border-bottom: 4px solid transparent;
+                border-left-width: 4px;
+                border-left-style: solid;
+                border-left-color: $color_text_primary;
+                position: relative;
+                right: -1rem;
+            }
+        }
     }
 }
