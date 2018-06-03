@@ -16,6 +16,11 @@ img {
     height: auto;
 }
 
+a {
+    text-decoration: none;
+    color: $color_text_primary;
+}
+
 * {
     margin: 0;
     padding: 0;

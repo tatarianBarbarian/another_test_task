@@ -1,0 +1,66 @@
+.footer {
+    background: $color_footer_bg;
+    padding: 3.5rem 0;
+    color: $color_grey_d1;
+
+    &__wrapper {
+        display: flex;
+    }
+
+    &__contacts {
+        max-width: 35%;
+        padding-right: 80px;
+    }
+
+    &-socials {
+        display: flex;
+        margin-top: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    &__soc-link {
+        color: $color_grey_d1;
+        text-decoration: none;
+        padding: 5px;
+        border: 1px solid $color_grey_d1;
+        font-size: 22px;
+
+        &:not(:last-child) {
+            border-right: none;
+        }
+
+        &--fb {
+            padding: 5px 14px;
+        }
+
+        &--vk {
+            padding: 5px 8px;
+        }
+
+        &--tw {
+            padding: 5px 8px;
+        }
+    }
+    
+    &__n-wrapper {
+        max-width: 30%;
+        margin-right: 50px;
+    }
+
+    &__nav {
+        display: flex;
+        flex-direction: column;
+        padding: 15px 0;
+    }
+
+    &__nav-link {
+        font-size: 13px;
+        color: $color_grey_d1;
+        margin: 5px 0;
+
+        &--active {
+            color: $color_primary;
+            text-decoration: underline;
+        }
+    }
+}

@@ -39,25 +39,25 @@
     <main>
         <!-- CRUMBS -->
         <header class="crumbs">
-            <div class="container">
-                <nav class="crumbs__list">
-                    <a href="" class="crumbs__link">Главная</a>
-                    <a href="" class="crumbs__link">Топливные карты</a>
-                </nav>
-            </div>
-        </header>
-        <article class="comparement container">
-            <div class="compaprement__compwidget">
-                <div>
-                    
+                <div class="container">
+                    <nav class="crumbs__list">
+                        <a href="" class="crumbs__link">Главная</a>
+                        <a href="" class="crumbs__link">Топливные карты</a>
+                    </nav>
                 </div>
+            </header>
+        <article class="comparement container">
+            <div class="comparement__compwidget">
+                    <span class="compare compare--comparement"><i class="list"></i> <span class="compare__num">4</span></span>
+                    <span class="u-p-15-l">Сравнение</span>
             </div>
             <div class="u-m-width-half u-m-60-t">
-                <h1 class="heading-primary">Сравнение топливых карт</h1>
+                <h1 class="heading-primary u-m-25-b">Сравнение топливых карт</h1>
                 <p>Выберите карту, которая оптимально подходит для вашего бизнеса.</p>
                 <p>Ниже представлены карты, которые вы добавили к сравнению</p>
             </div>
             <a href="#" class="btn u-m-30-tb">Заказать консультацию</a>
+            <!-- TABLE BEGINS -->
             <div class="comparement__table">
                 <!-- FIRST ROW -->
                 <div class="comparement__tcell">
@@ -221,56 +221,59 @@
         </article>
     </main>
     <footer class="footer">
-        <div class="container">
-            <div class="footer__contacts">
-                <a href="#"><img src="img/header-logo@1x.png" alt="Логотип"><span class="visually-hidden">На главную</span></a>
-                <div class="footer__phone">
-                    <p>8 800 222 54 97</p>
-                    <p>Телефон для консультации</p>
+            <div class="footer__wrapper container">
+                <div class="footer__contacts">
+                    <a href="#"><img src="img/header-logo@1x.png" alt="Логотип"><span class="visually-hidden">На главную</span></a>
+                    <div class="footer__phone-mail">
+                        <p class="u-color-white u-t-bold u-font-size-20">8 800 222 54 97</p>
+                        <p class="u-font-size-13">Телефон для консультации</p>
+                        <a href="mailto:info@petrolcards.ru" class="u-color-white u-t-bold u-font-size-20">info@petrolcards.ru</a>
+                    </div>
+                    <p class="u-font-size-13">Мы в соцсетях:</p>
+                    <div class="footer-socials">
+                        <a href="#" class="footer__soc-link footer__soc-link--fb">
+                            <span class="fa fa-facebook"></span>
+                            <span class="visually-hidden">Facebook</span>
+                        </a>
+                        <a href="#" class="footer__soc-link footer__soc-link--vk">
+                            <span class="fa fa-vk"></span>
+                            <span class="visually-hidden">VK</span>
+                        </a>
+                        <a href="#" class="footer__soc-link footer__soc-link--tw">
+                            <span class="fa fa-twitter"></span>
+                            <span class="visually-hidden">Twitter</span>
+                        </a>
+                        <a href="#" class="footer__soc-link">
+                            <span class="fa fa-google-plus"></span>
+                            <span class="visually-hidden">Google Plus</span>
+                        </a>
+                    </div>
+                    <p class="u-font-size-13">&copy; 2010-2018 PetrolCards.ru Все права защищены</p>
+                    <p class="u-font-size-13">Вся информация, предоставленная на данном сайте носит информационный характер, и ни при каких условиях не является публичной или иной офертой, определяемой положениями Гражданского кодекса РФ.</p>
                 </div>
-                <p>Мы в соцсетях:</p>
-                <div class="footer-socials">
-                    <a href="#">
-                        <span class="fa fa-facebook"></span>
-                        <span class="visually-hidden">Facebook</span>
-                    </a>
-                    <a href="#">
-                        <span class="fa fa-vk"></span>
-                        <span class="visually-hidden">VK</span>
-                    </a>
-                    <a href="#">
-                        <span class="fa fa-twitter"></span>
-                        <span class="visually-hidden">Twitter</span>
-                    </a>
-                    <a href="#">
-                        <span class="fa fa-google-plus"></span>
-                        <span class="visually-hidden">Google Plus</span>
-                    </a>
+                <div class="footer__n-wrapper">
+                    <p class="u-t-uppercase u-font-size-18">Главное</p>
+                    <nav class="footer__nav">
+                        <a href="#" class="footer__nav-link">О компании</a>
+                        <a href="#" class="footer__nav-link footer__nav-link--active">Топливные карты</a>
+                        <a href="#" class="footer__nav-link">Партнеры</a>
+                        <a href="#" class="footer__nav-link">Эмитентам карт</a>
+                        <a href="#" class="footer__nav-link">Контакты</a>
+                        <a href="#" class="footer__nav-link">Карта АЭС</a>
+                        <a href="#" class="footer__nav-link">Соглашение о конфиденциальности</a>
+                    </nav>
+                </div>
+                <div class="footer__n-wrapper">
+                    <p class="u-t-uppercase u-font-size-18">Другие разделы</p>
+                    <nav class="footer__nav">
+                        <a href="#" class="footer__nav-link">Подбор по регионам</a>
+                        <a href="#" class="footer__nav-link">Подбор по городам</a>
+                        <a href="#" class="footer__nav-link">Подбор по брендам</a>
+                        <a href="#" class="footer__nav-link">Полезные статьи</a>
+                        <a href="#" class="footer__nav-link">Карта сайта</a>
+                    </nav>
                 </div>
             </div>
-            <nav class="footer__nav">
-                <p>Главное</p>
-                <ul>
-                    <a href="#" class="footer__nav-link">О компании</a>
-                    <a href="#" class="footer__nav-link">Топливные карты</a>
-                    <a href="#" class="footer__nav-link">Партнеры</a>
-                    <a href="#" class="footer__nav-link">Эмитентам карт</a>
-                    <a href="#" class="footer__nav-link">Контакты</a>
-                    <a href="#" class="footer__nav-link">Карта АЭС</a>
-                    <a href="#" class="footer__nav-link">Соглашение о конфиденциальности</a>
-                </ul>
-            </nav>
-            <nav class="footer__nav">
-                <p>Другие разделы</p>
-                <ul>
-                    <a href="#" class="footer__nav-link">Подбор по регионам</a>
-                    <a href="#" class="footer__nav-link">Подбор по городам</a>
-                    <a href="#" class="footer__nav-link">Подбор по брендам</a>
-                    <a href="#" class="footer__nav-link">Полезные статьи</a>
-                    <a href="#" class="footer__nav-link">Карта сайта</a>
-                </ul>
-            </nav>
-        </div>
-    </footer>
+        </footer>
 </body>
 </html>

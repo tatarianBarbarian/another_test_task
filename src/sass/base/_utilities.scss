@@ -6,6 +6,8 @@
     margin: -1px;
 }
 
+//Margin helpers
+
 .u-m-60-t {
     margin-top: 6rem;
 }
@@ -14,18 +16,34 @@
     margin-top: 3rem;
 }
 
+.u-m-25-b {
+    margin-bottom: 2.5rem;
+}
+
 .u-m-30-tb {
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
 
+
+//Padding helpers
+
 .u-p-5-r {
     padding-right: .5rem;
 }
 
+.u-p-15-l {
+    padding-left: 1.5rem;
+}
+
+
+//Max-width helper
 .u-m-width-half {
     max-width: 50%;
 }
+
+
+//Color helpers
 
 .u-color-green {
     color: $color_green;
@@ -33,4 +51,34 @@
 
 .u-color-red {
     color: $color_red;
+}
+
+.u-color-white {
+    color: $color_white;
+}
+
+//Font helpers
+
+.u-font-size-13 {
+    font-size: 1.3rem;
+}
+
+.u-font-size-15 {
+    font-size: 1.5rem;
+}
+
+.u-font-size-18 {
+    font-size: 1.8rem;
+}
+
+.u-font-size-20 {
+    font-size: 2rem;
+}
+
+.u-t-bold {
+    font-weight: bold;
+}
+
+.u-t-uppercase {
+    text-transform: uppercase;
 }
