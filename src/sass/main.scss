@@ -1,0 +1,35 @@
+/*
+-Abstracts is for variables, mixins, functions.
+
+-Base is form some basic styles and resets.
+    - _base.scss - resets
+    - _typography.scss - font settings
+    - _utilities.scss - some helper classes
+
+
+-Blocks is for blocks, lol.
+
+-Vendors for third party styles
+*/
+
+//Vendors first
+
+@import 'vendors/normalize';
+
+//Abstracts
+
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+@import 'abstracts/functions';
+
+//Base
+@import 'base/base';
+@import 'base/typography';
+@import 'base/utilities';
+
+//Blocks
+@import 'blocks/container';
+@import 'blocks/header';
+@import 'blocks/icons';
+@import 'blocks/compare';
+@import 'blocks/crumbs';

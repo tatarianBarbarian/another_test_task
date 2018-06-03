@@ -1,0 +1,22 @@
+.compare {
+    position: relative;
+
+    &__num {
+        position: absolute;
+        background: red;
+        color: white;
+        display: inline-block;
+        padding: 2px 7px;
+        border-radius: 50%;
+        font-size: 12px;
+        top: -8px;
+        left: 18px;
+    }
+
+    &--header {
+        position: absolute;
+        top: 55%;
+        left: 45%;
+        transform: translate(-50%,-50%);
+    }
+}

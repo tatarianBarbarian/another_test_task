@@ -20,7 +20,7 @@ var path = {
 		js: 'build/js/',
 		jscss: 'build/js/',
 		css: 'build/css/',
-		img: 'build/images/',
+		img: 'build/img/',
         fonts: 'build/fonts/'
 	},
 
@@ -29,7 +29,7 @@ var path = {
 		js: 'src/js/*.js',
 		jscss: 'src/js/*.css',
 		style: 'src/sass/main.scss',
-        img: 'src/images/**/*.*',
+        img: 'src/img/**/*.*',
         fonts: 'src/fonts/**/*.*'
 	},
 
@@ -38,7 +38,7 @@ var path = {
 		js: 'src/js/**/*.js',
 		jscss: 'src/js/**/*.css',
 		style: 'src/sass/**/*.scss',
-        img: 'src/images/**/*.*',
+        img: 'src/img/**/*.*',
         fonts: 'src/fonts/**/*.*'
 	},
 
