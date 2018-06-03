@@ -1,0 +1,71 @@
+.comparement {
+
+    &__table {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 2px;
+        font-size: 1.5rem;        
+    }
+
+    &__tcell {
+        padding: 20px;
+        border-radius: 4px;
+        position: relative;
+
+        &--product {
+            background: $color_white;
+        }
+
+        &--yellcor {
+
+            &::before {
+                content: '';
+                border: 20px solid transparent; border-left: 20px solid $color_primary; border-top: 20px solid $color_primary;
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+        }
+    }
+
+    &__cornum {
+        position: absolute;
+        font-size: 1.2rem;
+        top: 5px;
+        left: 10px;
+    }
+
+    &__del-item {
+        position: relative;
+        float: right;
+        top: -10px;
+        padding-left: 1rem;
+        color: $color_blue;
+        cursor: pointer;
+
+        &-text {
+            border-bottom: 1px solid rgba($color_blue, 0.5);
+        }
+    }
+
+    &__choose {
+        border-bottom: 1px solid rgba($color_text_primary, 0.5);
+        cursor: pointer;
+        box-decoration-break: slice;
+        -webkit-box-decoration-break: slice;
+        color: $color_text_primary;
+        text-decoration: none;
+
+        &:hover {
+            color: $color_blue;
+            border-bottom: 1px solid rgba($color_blue, 0.5);
+        }
+
+        &--blue {
+            color: $color_blue;
+            border-bottom: 1px solid rgba($color_blue, 0.5);
+        }
+    }
+
+}

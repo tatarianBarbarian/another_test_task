@@ -10,10 +10,27 @@
     margin-top: 6rem;
 }
 
-.u-m-35-t {
-    margin-top: 3.5rem;
+.u-m-30-t {
+    margin-top: 3rem;
+}
+
+.u-m-30-tb {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.u-p-5-r {
+    padding-right: .5rem;
 }
 
 .u-m-width-half {
     max-width: 50%;
+}
+
+.u-color-green {
+    color: $color_green;
+}
+
+.u-color-red {
+    color: $color_red;
 }
